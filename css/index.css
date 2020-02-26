@@ -1,0 +1,47 @@
+.banner {
+  background-image: url(../imgs/banner.jpg);
+  background-size: cover;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+.wish {
+  padding: 4%;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+  border-radius: 6px;
+  background-color: #f8d22a;
+  padding: 1%;
+  margin-right: 2%;
+}
+@media screen and (max-width: 425px) {
+  .custom-container {
+    padding: 0 !important;
+  }
+  .banner {
+    background-size: contain;
+  }
+  .custom-card {
+    margin: 0 2% 0 2%;
+  }
+  .cb {
+    padding: 1rem 0.5rem !important;
+  }
+  .flex-div {
+    flex-direction: column;
+    display: flex;
+  }
+  .manager {
+    flex-wrap: wrap;
+    font-size: small;
+  }
+  .time,
+  .note {
+    color: rgba(37, 36, 36, 0.65);
+    font-family: "Segoe UI";
+    font-size: small;
+  }
+}
