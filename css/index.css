@@ -1,0 +1,153 @@
+.logo {
+  display: none;
+}
+.desktop-logo {
+  height: 5.5rem;
+}
+.banner {
+  background-image: url(../imgs/banner.jpg);
+  background-size: cover;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+.custom-card {
+  margin: 0 2% 0 2%;
+  border: none !important;
+}
+.wish {
+  padding: 4%;
+  color: #991d85;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wish-head {
+  text-shadow: 0 0 3px white, 0 0 5px #f5f5f7;
+}
+/* .box {
+  border-radius: 5px;
+  background-color: #991d85;
+  height: 4px;
+} */
+
+.cb {
+  background-color: #991d85;
+  color: white;
+}
+.news-side {
+  height: 80px;
+  width: auto;
+}
+.news-heading {
+  color: #991d85;
+  font-family: EvonikProkyon, "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", "Tahoma", Arial, sans-serif;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-paragraph {
+  font-family: EvonikProkyon, "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", "Tahoma", Arial, sans-serif;
+  color: black;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news,
+.tasks {
+  border: 10px solid #f3f2f1;
+}
+.news-head,
+.task-head {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.custom-body {
+  padding: 2%;
+}
+.task-card {
+  border-top-color: #991d85 !important;
+  border-top-width: 4px !important;
+}
+.task-duedate {
+  color: gray;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon-img {
+  width: auto !important;
+  flex: 0 !important;
+}
+.icon-name {
+  color: #991d85;
+}
+
+@media screen and (max-width: 425px) {
+  .desktop-logo {
+    display: none;
+  }
+  .custom-container {
+    padding: 0 !important;
+  }
+  .banner {
+    height: 210px;
+  }
+  .cb-title {
+    flex-wrap: wrap;
+    font-size: small;
+  }
+  .time,
+  .note {
+    font-family: "Segoe UI";
+    font-size: small;
+  }
+  .logo {
+    display: block;
+    height: 50px;
+  }
+  .news-side {
+    height: 40px;
+    width: auto;
+  }
+  .news-heading {
+    font-size: 16px;
+  }
+  .news-paragraph {
+    font-size: 14px;
+  }
+  .news-head,
+  .task-head {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 3%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .custom-body {
+    padding: 4%;
+  }
+  .li-br-shadow {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .icons {
+    padding: 4%;
+  }
+}
