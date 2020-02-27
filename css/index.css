@@ -6,23 +6,50 @@
 }
 .wish {
   padding: 4%;
-  color: #ffffff;
+  color: #991d85;
   font-size: 28px;
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.wish-head {
+  text-shadow: 0 0 3px white, 0 0 5px #f5f5f7;
+}
 .box {
-  border-radius: 6px;
-  background-color: #f8d22a;
-  padding: 1%;
+  border-radius: 5px;
+  background-color: #991d85;
   margin-right: 2%;
+  height: 4px;
+}
+.news-heading {
+  color: #991d85;
+  font-family: EvonikProkyon, "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", "Tahoma", Arial, sans-serif;
+}
+.news-paragraph {
+  font-family: EvonikProkyon, "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", "Tahoma", Arial, sans-serif;
+  color: black;
+}
+.news,
+.tasks {
+  border: 10px solid #f3f2f1;
+}
+.custom-body {
+  padding: 4%;
+}
+.task-card {
+  border-top-color: #991d85 !important;
+  border-top-width: 4px !important;
+}
+.task-duedate{
+  color: gray;
 }
 @media screen and (max-width: 425px) {
   .custom-container {
     padding: 0 !important;
   }
   .banner {
-    background-size: contain;
+    height: 210px;
   }
   .custom-card {
     margin: 0 2% 0 2%;
@@ -48,5 +75,36 @@
     vertical-align: middle;
     margin: 2% 0 2% 45%;
     height: 50px;
+  }
+  .news-side {
+    height: 40px;
+    width: auto;
+  }
+  .news-heading {
+    font-size: 16px;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .news-paragraph {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .news-head,
+  .task-head {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 3%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .li-br-shadow {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 }

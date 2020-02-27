@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../css/index.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title>Evonik</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container custom-container">
-        <img src="../imgs/logo.png" alt="logo" class="logo">
-        <div class="banner">
-            <div class="wish">Good morning, Tarak</div>
-            <div class="card custom-card">
-                <div class="card-body cb">
-                    <div class="flex-div pl-2">
-                        <div class="box"></div>
-                        <div class="manager">Meeting with team</div>
-                        <div class="time">1:00 PM - 5:00 PM</div>
-                        <div class="note">Note</div>
-                    </div>
-                    <!-- <div class="flex-div pl-2">
-              <div class="box"></div>
-              <div class="manager">Meeting with Tarak</div>
-              <div class="time">10:00 PM - 11:00 PM</div>
-            </div>
+      <img src="../imgs/logo.png" alt="logo" class="logo" />
+      <div class="banner">
+        <div class="wish">
+          <span class="wish-head">Good morning, Tarak</span>
+        </div>
+        <div class="card custom-card">
+          <div class="card-body cb">
             <div class="flex-div pl-2">
               <div class="box"></div>
-              <div class="manager">Meeting with Sai</div>
-              <div class="time">10:00 PM - 11:00 PM</div>
-            </div> -->
-                </div>
+              <div class="manager">Meeting with team</div>
+              <div class="time">1:00 PM - 5:00 PM</div>
+              <div class="note">Note</div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="news">
+        <span class="news-head">News</span>
+        <ul class="list-unstyled">
+          <li class="media p-3 li-br-shadow">
+            <img
+              src="../imgs/news.png"
+              class="align-self-center mr-3 news-side"
+              alt="news"
+            />
+            <div class="media-body news-paragraph">
+              <h5 class="mt-0 mb-1 news-heading">
+                Evonik launches its first software tool for 3D printing based on
+                Castor technology
+              </h5>
+              The tool helps manufacturers save costs by choosing the right
+              additive manufacturing process depending on geometry, material and
+              financial analysis of the part being designed.
+            </div>
+          </li>
+          <li class="media p-3 li-br-shadow">
+            <img
+              src="../imgs/news.png"
+              class="align-self-center mr-3 news-side"
+              alt="news"
+            />
+            <div class="media-body news-paragraph">
+              <h5 class="mt-0 mb-1 news-heading">
+                Evonik presents ROHACELL® foam cores for aerospace composites
+                and automated production
+              </h5>
+              Innovation in part design and efficiency through automated
+              production – these are the topics Evonik will present to the
+              aerospace composites industry in Hall 5/Booth J40 at JEC World in
+              Paris, March 3-5. Relevant to leaders in all industries, both
+              processing time and cost saving considerations are critical in the
+              evaluation of materials for their applications, as well as the
+              solution’s ability to meet the highest performance requirements.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="tasks">
+        <span class="task-head">Tasks</span>
+        <div class="card task-card">
+          <div class="custom-body">
+            <div class="task-title">Title</div>
+            <div class="task-duedate">Due Date</div>
+          </div>
+        </div>
+      </div>
+      <div class="icons">
+        <img src="http://placehold.it/30x30" class="avatar img-responsive" />
+        <span class="header-username">Chuck Norris</span>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
