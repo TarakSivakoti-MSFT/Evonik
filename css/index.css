@@ -44,4 +44,9 @@
     font-family: "Segoe UI";
     font-size: small;
   }
+  .logo {
+    vertical-align: middle;
+    margin: 2% 0 2% 45%;
+    height: 50px;
+  }
 }
