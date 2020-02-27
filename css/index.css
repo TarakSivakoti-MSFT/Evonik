@@ -5,7 +5,8 @@
   height: 5.5rem;
 }
 .banner {
-  background-image: url(../imgs/banner.jpg);
+  /* background-image: url(../imgs/banner.jpg); */
+  background-image: url(../imgs/banner1.jpg);
   background-size: cover;
   height: 350px;
   background-repeat: no-repeat;
@@ -15,15 +16,15 @@
   border: none !important;
 }
 .wish {
-  padding: 4%;
+  padding: 2% 0 0 4%;
   color: #991d85;
   font-size: 28px;
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.wish-head {
-  text-shadow: 0 0 3px white, 0 0 5px #f5f5f7;
-}
+/* .wish-head {
+  text-shadow: 0 0 3px #2b1212, 0 0 5px #101094;
+} */
 /* .box {
   border-radius: 5px;
   background-color: #991d85;
@@ -31,8 +32,8 @@
 } */
 
 .cb {
-  background-color: #991d85;
-  color: white;
+  background-color: white;
+  color: #991d85;
 }
 .news-side {
   height: 80px;
@@ -86,15 +87,22 @@
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  margin-top: 6%;
 }
 .icon-img {
-  width: auto !important;
-  flex: 0 !important;
+  /* width: auto !important; */
+  /* flex: 0 !important; */
+  border: 10px solid #f3f2f1;
+  text-align: center;
+  text-align: center;
+  height: 150px;
 }
 .icon-name {
   color: #991d85;
 }
-
+.icons {
+  padding: 0 !important;
+}
 @media screen and (max-width: 425px) {
   .desktop-logo {
     display: none;
@@ -146,8 +154,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
-  .icons {
-    padding: 4%;
+    margin-top: 20%;
   }
 }
