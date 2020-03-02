@@ -1,0 +1,38 @@
+.logo {
+  display: none;
+}
+.desktop-logo {
+  height: 5.5rem;
+}
+tr {
+  background-color: white;
+  border: 10px solid #f3f2f1;
+}
+
+tr:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+.table td {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fas {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .desktop-logo {
+    display: none;
+  }
+  .logo {
+    display: block;
+    height: 50px;
+  }
+  .table td {
+    font-size: small;
+  }
+  .fas {
+    font-size: 18px;
+  }
+}
