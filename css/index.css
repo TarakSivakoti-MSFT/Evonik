@@ -25,11 +25,10 @@
 /* .wish-head {
   text-shadow: 0 0 3px #2b1212, 0 0 5px #101094;
 } */
-/* .box {
-  border-radius: 5px;
-  background-color: #991d85;
-  height: 4px;
-} */
+.box {
+  border-left: 6px solid #991d85;
+  border-radius: 8px;
+}
 
 .cb {
   background-color: white;
@@ -83,11 +82,11 @@
 }
 .avatar {
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   cursor: pointer;
-  margin-top: 6%;
+  margin-top: 3%;
 }
 .icon-img {
   /* width: auto !important; */
@@ -151,9 +150,7 @@
   }
   .avatar {
     vertical-align: middle;
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 }
