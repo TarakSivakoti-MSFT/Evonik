@@ -1,0 +1,38 @@
+.logo {
+  height: 150px;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #0056b3;
+  text-decoration: none;
+}
+.card-header {
+  cursor: pointer;
+}
+tbody tr:hover {
+  color: #212529;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+th:nth-child(n + 1) {
+  width: 35%;
+}
+tr {
+  border-bottom: 1px solid lightgray;
+}
+.deck {
+  padding: 2rem;
+}
+.pto-block {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4%;
+  padding: 2%;
+  text-align: center;
+  cursor: pointer;
+}
+.pto-block:hover {
+  background-color: #95ebeb;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
