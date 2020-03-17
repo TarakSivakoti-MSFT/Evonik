@@ -5,8 +5,8 @@
   height: 5.5rem;
 }
 .banner {
-  /* background-image: url(../imgs/banner.jpg); */
-  background-image: url(../imgs/banner1.jpg);
+  background-image: url(../imgs/Contoso-BKGR.jpg);
+  /* background-image: url(../imgs/banner1.jpg); */ /* for evonik bg*/
   background-size: cover;
   height: 350px;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 }
 .wish {
   padding: 2% 0 0 4%;
-  color: #991d85;
+  color: white;
   font-size: 28px;
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -25,21 +25,21 @@
 /* .wish-head {
   text-shadow: 0 0 3px #2b1212, 0 0 5px #101094;
 } */
-.box {
+/* .box {
   border-left: 6px solid #991d85;
   border-radius: 8px;
-}
+} */
 
 .cb {
   background-color: white;
-  color: #991d85;
+  /* color: #991d85; */
 }
 .news-side {
   height: 80px;
   width: auto;
 }
 .news-heading {
-  color: #991d85;
+  color: #53b3ea;
   font-family: EvonikProkyon, "Trebuchet MS", "Lucida Grande",
     "Lucida Sans Unicode", "Lucida Sans", "Tahoma", Arial, sans-serif;
   font-weight: bold;
@@ -74,7 +74,7 @@
   padding: 2%;
 }
 .task-card {
-  border-top-color: #991d85 !important;
+  border-top-color: #53b3ea !important;
   border-top-width: 4px !important;
 }
 .task-duedate {
@@ -110,7 +110,8 @@
     padding: 0 !important;
   }
   .banner {
-    height: 210px;
+    height: 246px;
+    background-size: 100% 100%;
   }
   .cb-title {
     flex-wrap: wrap;
